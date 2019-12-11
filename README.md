@@ -6,7 +6,7 @@ periodically use the wallet to withdraw funds. If the owner does not use the
 wallet within the configured time period, the funds become spendable by the
 successor.
 
-This is performed by managing a p2sh addres mapping to the following Bitcoin Script:
+This is performed by managing a p2sh address mapping to the following Bitcoin Script:
 ```
 OP_If
 	<Owner’s pubkey> OP_CheckSig
